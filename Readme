@@ -1,0 +1,9 @@
+Evaluate:
+    To evalute the model on single audio file
+    from evaluation import beattracking_output
+    predicted_beats, predicted_downbeats = beattracking_output(path_of_audio_file)
+
+To train the model run:
+    python train.py
+To test the model on test dataset:
+    python train.py
